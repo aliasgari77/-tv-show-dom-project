@@ -3,19 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ali.ASG</title>
+    <title>GOT</title>
     <link href="style.css" rel="stylesheet" />
   </head>
- 
-  
-  <header class="main-header" role="banner">
-    <img src="/image/banner.png" alt="Banner Image"/>
-  </header>
-
-
+  <header class="head"><img src="/image/banner.png" alt="GOT"></header>
   <body>
-    <div id="input_title"></div>
     <div id="root"></div>
+    <select id="episodesDropList">
+      <option value="0">Please Select an Episode</option>
+    </select>
+
+    <div id="search-bar">
+      <input id="search-field" type="text" />
+      <p id="search-count"></p>
+    </div>
+    <br />
+    <main class="all-episodes">
+    </main>
+    <footer>
+      <br />
+    <a href="TVMaze.com">TVMaze.com</a>
+    </footer>
     <script src="episodes.js"></script>
     <script src="script.js"></script>
   </body>
